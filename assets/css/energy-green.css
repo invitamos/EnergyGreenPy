@@ -301,7 +301,7 @@ p{ margin:0 0 1em; }
 
 .porque{ display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--linea); }
 @media (max-width:900px){ .porque{ grid-template-columns:1fr 1fr; } }
-@media (max-width:560px){ .porque{ grid-template-columns:1fr; } }
+
 .porque-item{ padding:32px 28px 32px 0; border-bottom:1px solid var(--linea); }
 .porque-item i{ font-size:1.9rem; color:var(--verde); display:inline-block; margin-bottom:12px; transition:transform .4s var(--ease); }
 .porque-item:hover i{ transform:translateY(-4px); }
@@ -747,4 +747,16 @@ p{ margin:0 0 1em; }
   /* Textos largos de servicios: se acortan para que las tarjetas queden parejas */
   .serv-txt > p{ display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden; }
   .serv .checks li{ display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+}
+
+
+/* ---------- Celular: "por qué elegirnos" en 2 columnas ---------- */
+@media (max-width:640px){
+  .porque{ grid-template-columns:1fr 1fr; column-gap:16px; }
+  .porque-item{ padding:20px 0; }
+  .porque-item i{ font-size:1.5rem; margin-bottom:8px; }
+  .porque-item h3{ font-size:.9rem; line-height:1.3; margin-bottom:4px; }
+  .porque-item p{ font-size:.8rem; line-height:1.45; }
+  .miembro{ padding-bottom:16px; }
+  .miembro-redes{ margin-bottom:0; }
 }
