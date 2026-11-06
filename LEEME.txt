@@ -1,0 +1,21 @@
+ENERGY GREEN · SITIO COMPLETO (verde y blanco)
+==============================================
+
+Este zip ya trae TODO: la página nueva y todas tus fotos y el video,
+optimizadas en formato WebP (se ven igual y pesan mucho menos).
+
+CÓMO USARLO
+1. Descomprimí el zip.
+2. Abrí energy-green/index.html con doble clic para verlo.
+3. Para publicarlo, subí todo el contenido de la carpeta energy-green
+   a tu hosting (por ejemplo, a public_html en Hostinger).
+
+DÓNDE CAMBIAR COSAS
+- Colores: primeras líneas de assets/css/energy-green.css (--verde, etc.).
+- WhatsApp: buscá 595984154315 en index.html y en assets/js/energy-green.js.
+- Claves de EmailJS: al final de assets/js/energy-green.js.
+- Consumo de cada aparato del simulador: atributo data-w en index.html.
+
+NOTA SOBRE LAS RESEÑAS
+Se guardan en el navegador de cada visitante: cada persona ve solo las
+suyas. Para reseñas públicas reales conviene usar las de Google.
